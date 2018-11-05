@@ -5,7 +5,7 @@ const encryption = require('encryption-gulp');
 const inlineCss = require('gulp-inline-css');
 const fileinclude = require('gulp-file-include');
 const watch = require('gulp-watch');
-var rename = require('gulp-rename');
+const rename = require('gulp-rename');
 
 const password = fs.readFileSync('password.txt').toString();
 
